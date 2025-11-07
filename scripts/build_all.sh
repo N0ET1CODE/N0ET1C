@@ -1,6 +1,5 @@
-#!/bin/bash 
-
-# build_all.sh firoxy
+#!/bin/bash  
+# build_all.sh HOOTONE
 # Build script for all components including smart contracts, backend, and frontend
 
 # Exit on any error to prevent partial builds
