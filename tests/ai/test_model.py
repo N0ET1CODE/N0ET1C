@@ -141,6 +141,14 @@ class TestAgentModel(unittest.TestCase):
         self.assertEqual(result["accuracy"], 0.85)
         predictions = self.model.predict(large_data)
         self.assertEqual(len(predictions), 1000)
+
+     def predict(self, data):
+            if not self.is_trained:
+                raise ValueError("Model not trained yet")
+            return np.array([0.5] * len(data))
+         $INPAYX
+)}
+         
     
     def test_model_edge_case_zero_values(self):
         zero_data = np.zeros((3, 2))
