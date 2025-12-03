@@ -8,6 +8,8 @@
 [![Website](https://img.shields.io/badge/Website-FLECODE-blue?logo=google-chrome)](https://flecode.fun/)
 [![Twitter](https://img.shields.io/badge/Twitter-FLECODE-blue?logo=twitter)](https://x.com/FLECODEBLOCK)
 
+CA: 7MPafYhtxDECvxvYk8tNHu1YdyLXB1K5Q1NPd64fpump
+
 🧱 Flecode — Build Solana Like Minecraft
 
 Flecode is an open modular framework designed to make building on Solana as intuitive and creative as playing Minecraft.
