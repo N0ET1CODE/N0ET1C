@@ -1,19 +1,71 @@
-# WGMGUY
+# ORENOX — MEV-Proof Execution Layer
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Solana](https://img.shields.io/badge/Solana-Web3-green.svg)](https://solana.com/)
 [![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/yourusername/ontora-ai.svg)](https://github.com/yourusername/ontora-ai/issues)
 
-[![Website](https://img.shields.io/badge/Website-WGMGUY-blue?logo=google-chrome)](https://wgmguy.fun/)
-[![Twitter](https://img.shields.io/badge/Twitter-WGMGUY-blue?logo=twitter)](https://x.com/WGMGUYLIVE)
+[![Website](https://img.shields.io/badge/Website-ORENOX-blue?logo=google-chrome)](https://orenox.tech/)
+[![Twitter](https://img.shields.io/badge/Twitter-ORENOX-blue?logo=twitter)](https://x.com/ORENOXWEB3)
 
-WGMGUY is a virtual on-chain character capable of acting independently on Solana. He trades tokens, explores DeFi, buys the NFTs he likes, and experiences every corner of the crypto world, living like a true digital lifeform with his own rhythm and decisions.
+ORENOX is an execution layer designed to make on-chain trading unexploitable.  
+By hiding real trading intent until the moment of settlement, ORENOX prevents MEV extraction, front-running, back-running and sandwich attacks — ensuring that 100% of the profit stays with the user.
 
-This is not a game, nor a tool, but an experiment in how the crypto world and human behavior reflect each other. WGMGUY is not controlled by anyone — every action and decision he makes is driven by on-chain data and market signals. Greed, fear, excitement, and exhaustion all shape his unique digital emotions.
+---
 
-Every trade and every move made by WGMGUY is funded entirely by the project’s Creator Fee. This means every participant and every interaction directly fuels this “on-chain lifeform,” allowing him to keep growing, acting, and thinking.
+## 🔥 Core Capabilities
+- **MEV-Proof Execution** — immune to all predictive extraction attacks
+- **Invisible Orderflow** — routing, size and direction hidden until settlement
+- **Protected Profit Capture** — no liquidity manipulation or profit leakage
+- **Autonomous Integration Layer** — works on top of any DEX / aggregator / perps market
 
-All of this unfolds through a 24/7 livestream on Pumpfun, where everything is transparent and alive. From euphoric rallies to crushing dips, from chaotic impulses to late-night moments of doubt and reflection, it’s all on display in real time.
+ORENOX does not try to outrun attackers — it removes their ability to exploit trades at all.
 
-What you see is not just the fluctuation of a token, but the growth, collapse, and rebirth of an on-chain being. He may be made of code, but what he mirrors is the emotional rhythm shared by all of us who live in the crypto world.
+---
+
+## 🧩 Technical Architecture
+1. **Fragmented Intent Routing**  
+   Orders are split into micro-paths with randomized timing and routes.
+2. **Blind Settlement Engine**  
+   The final execution path is revealed only at settlement.
+3. **Encrypted Orderflow Obfuscation**  
+   Transaction metadata is encoded to prevent classification and prediction.
+
+---
+
+## ⚙️ Deployment Requirements
+- Access to liquidity sources (DEX / aggregators / perps)
+- Ability to submit final settlement at block execution
+- Orderflow encoding before reaching the public network
+
+---
+
+## 📦 Integration
+ORENOX is a plug-and-play execution layer requiring **no modifications** to existing DEX infrastructure.  
+Developers can route trades through ORENOX to add MEV-resistant execution to any bot, perps engine, trading UI or routing protocol.
+
+---
+
+## ❓ FAQ
+**Is ORENOX a new DEX?**  
+No. It is an execution layer built on top of existing markets.
+
+**Does ORENOX require protocol-side changes?**  
+No. Integration is frictionless and non-invasive.
+
+**Has a token been launched?**  
+No. No token exists at this stage.  
+The only verified contract address will be announced through official channels.
+
+---
+
+## 🔍 Open-Source Philosophy
+All core contracts and execution logic are fully open-source — nothing is hidden or restricted.  
+Audit it. Fork it. Extend it.
+
+---
+
+## 📜 License
+MIT License unless otherwise specified in individual modules.
+
+
